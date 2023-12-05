@@ -3,10 +3,10 @@
 
 // Config database 
 
-$host = 'localhost';
-$dbname = 'laravelCampus';
-$username = 'root';
-$password = 'thom8651';
+$host = '';
+$dbname = '';
+$username = '';
+$password = '';
 
 try{
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
